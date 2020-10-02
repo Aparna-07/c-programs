@@ -19,8 +19,7 @@ int gcd(int p,int q)
 }
 int main()
 {
-
-    int x,y;
+`  int x,y;
     printf("Enter two positive integers\n");
     scanf("%d %d",&x,&y);
      printf("The GCD between %d and %d is %d\n",x,y,gcd(x,y));
